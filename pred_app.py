@@ -41,8 +41,8 @@ def main():
     
     
     if st.button("fuel predection"):
-        pred =fuel_predict([shaftSpeed,	TWS	,	temp,	meanDraft])
-        st.write(pred)
+        pred =fuel_predict([shaftSpeed,TWS,temp,meanDraft])
+        st.write(int(pred))
         
 if __name__=='__main__':
     main()
