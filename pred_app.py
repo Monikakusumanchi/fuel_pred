@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 from sklearn.preprocessing import StandardScaler
 
-loaded_model=pickle.load(open('E:/samidha_SIH/fuel_pred/fuel.sav', 'rb'))
+loaded_model=pickle.load(open('fuel.sav', 'rb'))
 def fuel_predict(input_data):
     
     input_data_as_numpy_array = np.asarray(input_data)
